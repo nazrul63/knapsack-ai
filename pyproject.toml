@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "knapsack"
+version = "0.1.0"
+description = "Shared AI/ML infrastructure for KNApSAcK Family Database research"
+authors = [{name = "Nazrul Islam", email = "asmnazrul1363@gmail.com"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+keywords = ["cheminformatics", "metabolomics", "machine-learning", "drug-discovery", "biopesticides"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Chemistry",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["knapsack*"]
+
+[project.urls]
+Homepage = "https://github.com/nazrul63/knapsack-ai"
+Repository = "https://github.com/nazrul63/knapsack-ai"
+Issues = "https://github.com/nazrul63/knapsack-ai/issues"

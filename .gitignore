@@ -1,0 +1,61 @@
+# Data — never commit raw or processed data
+data/raw/
+data/processed/
+data/external/
+
+# Model artifacts
+models/
+projects/*/models/*.pkl
+projects/*/models/*.joblib
+projects/*/models/*.onnx
+*.pkl
+*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+.conda/
+*.env
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# CSV / SDF / MOL (data files)
+*.csv
+*.sdf
+*.mol
+*.smi
+*.sh
+Miniconda3-latest-MacOSX-arm64.sh
+Miniconda3-latest-MacOSX-arm64.sh

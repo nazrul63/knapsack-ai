@@ -1,0 +1,33 @@
+name: knapsack-ai
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - pip
+  - rdkit
+  - jupyter
+  - ipykernel
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - plotly
+  - requests
+  - pytest
+  - black
+  - pip:
+    - xgboost
+    - torch
+    - torch-geometric
+    - transformers
+    - sentence-transformers
+    - chromadb
+    - fastapi
+    - uvicorn
+    - streamlit
+    - ruff
+    - pytest-cov
+    - -e .
