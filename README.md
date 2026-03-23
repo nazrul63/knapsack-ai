@@ -68,8 +68,9 @@ python scripts/run_project.py bioguard
 
 ## Team
 
-- **Nazrul Islam** — CS/AI, NAIST Kanaya Lab (PhD student)
-- Supervisor: **Prof. Shigehiko Kanaya**, NAIST
+- **Mohammad Imran Khan** — PhD student, Computational Systems Biology Lab, NAIST
+- **A S M Nazrul Islam** — PhD student, Computational Systems Biology Lab, NAIST
+- Supervisor: **Prof. Shigehiko Kanaya**, NAIST, **Assoc. Prof. Md Altaf-Ul-Amin**, NAIST, **Asst. Prof. Mohammed Kamal Nasution**, NAIST
 
 ## License
 
